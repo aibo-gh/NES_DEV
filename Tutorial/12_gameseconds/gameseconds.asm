@@ -153,13 +153,6 @@ NMI:
    lda #0
    sta Frame
 :  rti 
-AddTick:
-    inc Clock60
-    lda #0
-    sta Frame
-continue:
-    inc Frame 
-    rti 
 IRQ: 
     rti 
 
